@@ -28,6 +28,11 @@ h1 {
   line-height: 40px;
 }
 
+.fa {
+  padding-left: 6px;
+  font-size: 15px;
+}
+
 #portfolio {
   background-color: #a7f2f4;
   border-radius: 5px;
