@@ -31,32 +31,55 @@ h1 {
 .fa {
   padding-left: 6px;
   font-size: 15px;
+  color: #7dbeff;
 }
 
+
 #about {
-  background-color: #c1f0f0;
+  background-color: #86FFF2;
   color: #3a3a3a;
 }
 
 #portfolio {
-  background-color: #eecc86;
+  background-color: #7dbeff;
   color: #3a3a3a;
   border-radius: 5px;
   padding-bottom: 20px;
   text-align: center;
 }
 
+
+.nav-pills li.active a {
+  background-color: #7dbeff;
+}
+
+.nav-pills li.active a:hover {
+  background-color: #eee;
+  border-color: #ccc;
+  color: black;
+}
+
+.nav-pills li a {
+  color: #7dbeff;
+}
+
+.nav-pills li a:hover {
+  color: black;
+  background-color: #eee;
+}
+
 a:link    {
   /* Applies to all unvisited links */
   text-decoration: none;
   font-weight: bold;
+
   }
 a:visited {
   /* Applies to all visited links */
   text-decoration: none;
   font-weight: bold;
-/*   color: #f0f; */
   }
+
 a:hover   {
   /* Applies to links under the pointer */
   text-decoration: none;
@@ -71,11 +94,23 @@ a:active  {
   color: white;
   }
 
+  h4 a {
+    color: #3a3a3a;
+  }
+
+  h4 a:hover {
+    color: white;
+  }
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+}
+
+ {
+  background-color: #7dbeff;
 }
 
 /* Customize container */
@@ -107,12 +142,12 @@ a:active  {
 }
 
 .btn {
-  background-color: #1e7dd0;
+  background-color: #7dbeff;
   color: white;
 }
 
 #contact {
-  background-color: #c1f0f0;
+  background-color: #86FFF2;
   color: #3a3a3a;
   margin-top: 30px;
   border-radius: 5px;
