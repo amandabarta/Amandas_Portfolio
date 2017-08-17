@@ -36,13 +36,13 @@ h1 {
 
 
 #about {
-  background-color: #86FFF2;
+  background-color: #e5e5e5;
   color: #3a3a3a;
 }
 
 #portfolio {
   background-color: #7dbeff;
-  color: #3a3a3a;
+  color: #fff;
   border-radius: 5px;
   padding-bottom: 20px;
   text-align: center;
@@ -141,17 +141,26 @@ a:active  {
 
 }
 
-.btn {
-  background-color: #7dbeff;
-  color: white;
-}
 
 #contact {
-  background-color: #86FFF2;
+  background-color: #e5e5e5;
   color: #3a3a3a;
   margin-top: 30px;
   border-radius: 5px;
+  text-align: center;
 }
+
+.btn {
+  background-color: #7dbeff;
+  color: white;
+  position: relative;
+ /* display: inline-block;
+  margin: 0 auto;
+  float: right;*/
+
+}
+
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
