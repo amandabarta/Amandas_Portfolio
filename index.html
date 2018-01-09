@@ -1,86 +1,197 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Amanda Barta | Portfolio</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- font awesome-->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- my stylesheet -->
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-  </head>
-  <body>
- <body>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <div class="container" id="home">
-    <div class="header clearfix">
-      <nav>
-        <ul class="nav nav-pills pull-right">
-          <li role="presentation" class="active"><a href="#home">Home</a></li>
-          <li role="presentation"><a href="#about">About</a></li>
-          <li role="presentation"><a href="#portfolio">Portfolio</a></li>
-          <li role="presentation"><a href="#contact">Contact</a></li>
-        </ul>
+      <title>Amanda Barta | Portfolio</title>
 
-      <h3 class="text-muted">Amanda Barta<a href="https://github.com/amandabarta" target="_blank"</a><i class="fa fa-github-alt" aria-hidden="true"></i></a><a href="https://www.linkedin.com/in/amandabarta/" target="_blank"</a><i class="fa fa-linkedin" aria-hidden="true"></i></a></h3>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <!-- font awesome-->
+      <script src="https://use.fontawesome.com/8766ded00b.js"></script>
+
+      <!-- google fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+      <!-- my stylesheet -->
+      <link rel="stylesheet" type="text/css" href="styles/style.css">
+    </head>
+
+    <body>
+     <div itemscope itemtype="http://schema.org/Person">
+      <header>
+        <h1 itemprop="name">Amanda Barta</h1>
+      </header>
+         <nav>
+        <header>
+          <h1>Navigation menu</h1>
+        </header>
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="navbar-brand">Amanda Barta</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-nav-demo">
+          <ul class="nav navbar-nav">
+            <li><a href="#projects" title="Projects section">Projects</a></li>
+            <li><a href="#about" title="About section">About</a></li>
+            <li><a href="#contact" title="Contact Section">Contact</a></li>
+            <li>
+              <a href="https://github.com/amandabarta" title="Amanda Barta's github profile">
+                <i class="fa fa-github-alt" title="github icon">
+                </i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/amandabarta/" title="Amanda Barta's linkedIn Page">
+                <i class="fa fa-linkedin" title="linkedin icon">
+                </i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
       </nav>
-    </div>
 
-    <div class="jumbotron" id="about">
-      <img src="https://avatars3.githubusercontent.com/u/21001512?v=3&u=fd03578a3490af0214c41386594f91f249ff19f3&s=400" height="150" width="150"/>
-      <h1>I am a</h1>
-      <p class="lead">self-taught web designer ready to help you <code>code</code> your way to aesthetically pleasing and well-functiong website designs.</p>
-    </div>
-    <div class="container-fluid" id="portfolio">
-    <h1>What I've Done</h1>
-    <div class="row">
-      <div class="col-lg-6">
-        <a href="https://codepen.io/anb/pen/vgVwoQ" target = "_blank"><img src="http://www.fridakahlo.org/images/frida-kahlo-picture.jpg" height="300"/></a>
-        <h4><a href="https://codepen.io/anb/pen/vgVwoQ" target="_blank">Tribute Page</a></h4>
+
+
+<!-- project section-->
+
+        <div class="container-fluid" id="projects">
+          <section>
+          <h1>Projects</h1>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <h2>
+                <a href="/frida">Tribute Page</a>
+              </h2>
+
+              <a href="/frida">
+                <img src="img/projects/frida.png" alt="Frida Kahlo tribute page">
+              </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+
+            <h2>
+              <a href="/sample-blog">Sample Blog Page</a>
+            </h2>
+            <a href="/sample-blog">
+              <img src="img/projects/blog.png" alt="Sample blog page">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <h2>
+              <a href="/portfolio">Sample Portfolio</a>
+            </h2>
+            <a href="/portfolio">
+              <img src="img/projects/portfolio.png" alt="Sample portfolio page">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <h2>
+              <a href="/photo-gallery">Photo Gallery</a>
+            </h2>
+            <a href="/photo-gallery">
+              <img src="img/projects/gallery.png" alt="Photo gallery page">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <h2>
+              <a href="/move">Codeacademy Project</a>
+            </h2>
+            <a href="/move">
+              <img src="img/projects/move.png" alt="Codeacademy page">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <h2>
+              <a href="/start-up-landing>">Startup Landing Page</a>
+            </h2>
+            <a href="/start-up-landing">
+              <img src="img/projects/startup.png" alt="Startup landing page">
+            </a>
+          </div>
+        </div>
+      </section>
       </div>
-  <div class="col-lg-6">
-     <a href="https://codepen.io/anb/pen/eEOQjL" target="_blank"><img src="img/projects/sample-blog-page.jpg"/></a>
-    <h4><a href="https://codepen.io/anb/pen/eEOQjL" target="_blank">Sample Blog Page</a></h4>
+
+
+
+<!-- about section-->
+      <div class="container-fluid" id="about">
+        <section>
+        <h1>About</h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <img itemprop="image" src="img/Amanda-Color-updated-background-website.png" alt="Amanda Barta">
+          </div>
+          <div class="col-lg-6">
+            <p>
+              Interests: HTML5, CSS, JavaScript, UX Research and UI Design. Currently participating in the User Experience Research and Design MicroMasters Program offered through the University of Michigan (online).
+              <br>
+            </p>
+              <p>
+              While not honing my skills, I enjoy baking (&amp; eating) sweet treats in addition to practicing some Yoga With Adriene.
+            </p>
+          </div>
+        </div>
+      </section>
+      </div>
+
+
+<!-- contact section-->
+      <div class="container-fluid" id="contact">
+        <section>
+          <h1>Contact Me</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <a class="btn btn-default" href="mailto:amanda.barta@gmail.com" itemprop="email" title="Amanda Barta's email address" role="button">Email
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a class="btn btn-default" href="https://www.linkedin.com/in/amandabarta/" itemprop="url" title="Amanda Barta's linkedIn Page" role="button">LinkedIn
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a class="btn btn-default" href="https://github.com/amandabarta" itemprop="url" title="Amanda Barta's github profile" role="button">GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+      </div>
+
+
+
+
+      <div class="container-fluid">
+        <footer class="footer">
+          <p>&copy; 2017 AB, Inc.
+          </p>
+        </footer>
       </div>
     </div>
- <div class="row">
-<div class="col-lg-6">
-   <a href="https://github.com/amandabarta/portfolio" target="_blank"><img src="img/projects/sample-portfolio-page.jpg"/></a>
-  <h4><a href="https://github.com/amandabarta/portfolio" target="_blank">Sample Portfolio Page</a></h4>
-      </div>
-      <div class="col-lg-6">
-        <a href="https://github.com/amandabarta/Photo_Gallery" target="_blank"><img src="img/projects/photo-gallery-page.jpg"/></a>
-         <h4><a href="https://github.com/amandabarta/Photo_Gallery" target="_blank">Photo Gallery</a></h4>
-  </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-         <a href="file:///Users/Amanda/Desktop/Coding_Projects/MOVE/index.html" target="_blank"><img src="img/projects/move-page.jpg"/></a>
-         <h4><a href="file:///Users/Amanda/Desktop/Coding_Projects/MOVE/index.html" target="blank">MOVE</a></h4>
-       </div>
-      <div class="col-lg-6">
-     <a href="file:///Users/Amanda/Desktop/Coding_Projects/REDEYE.html" target="_blank"><img src="img/projects/red-eye-page.jpg"/></a><h4><a href="file:///Users/Amanda/Desktop/Coding_Projects/REDEYE.html" target="_blank">RED EYE Photography</a></h4>
-      </div>
-  </div>
-    </div>
-    <div class="container-fluid" id="contact"><h1>Contact Me</h1>
-      <p><a class="btn btn-default" href="mailto:amanda.barta@gmail.com" role="button">Email</a></p>
-      <p><a class="btn btn-default" href="https://www.linkedin.com/in/amandabarta/" role="button" target="_blank">LinkedIn</a></p>
-      <p><a class="btn btn-default" href="https://github.com/amandabarta" role="button" target="_blank">GitHub</a></p>
-    </div>
-    <footer class="footer">
-      <p>&copy; 2017 AB, Inc.</p>
-    </footer>
 
-  </div>
-  <!-- /container -->
-
-
-
-</body>
-</html>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+  </html>
 
