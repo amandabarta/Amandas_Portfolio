@@ -1,0 +1,13 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img-thumbnail {
+  display: block;
+  margin: auto;
+}
+
+h3 {
+  margin-top: 10px;
+}
